@@ -4,6 +4,7 @@ import Home from "./Home/Home";
 import CSSInfo from "./CSS/CSS";
 import JavaScriptInfo from "./JavaScript/JavaScript";
 import ReactInfo from "./React/React";
+import NotFound from "./NotFound/NotFound";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/css" element={<CSSInfo />} />
         <Route path="/javascript" element={<JavaScriptInfo />} />
         <Route path="/react" element={<ReactInfo />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
   );
