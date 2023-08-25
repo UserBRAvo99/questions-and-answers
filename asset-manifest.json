@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/questions-and-answers/static/css/main.31d6cfe0.css",
-    "main.js": "/questions-and-answers/static/js/main.74e8ade5.js",
+    "main.js": "/questions-and-answers/static/js/main.b2fb84a1.js",
     "index.html": "/questions-and-answers/index.html",
-    "main.74e8ade5.js.map": "/questions-and-answers/static/js/main.74e8ade5.js.map"
+    "main.b2fb84a1.js.map": "/questions-and-answers/static/js/main.b2fb84a1.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.74e8ade5.js"
+    "static/js/main.b2fb84a1.js"
   ]
 }
