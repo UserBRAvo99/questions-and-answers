@@ -12,11 +12,11 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
-        <Route path="/" element={<Home />} />
-        <Route path="/html" element={<HTMLInfo />} />
-        <Route path="/css" element={<CssInfo />} />
-        <Route path="/javascript" element={<JavaScriptInfo />} />
-        <Route path="/react" element={<ReactInfo />} />
+        <Route index element={<Home />} />
+        <Route path="html" element={<HTMLInfo />} />
+        <Route path="css" element={<CssInfo />} />
+        <Route path="javascript" element={<JavaScriptInfo />} />
+        <Route path="react" element={<ReactInfo />} />
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
