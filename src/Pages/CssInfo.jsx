@@ -1,6 +1,6 @@
 import React from "react";
 
-function CSSInfo() {
+function CssInfo() {
   return (
     <div>
       <h1>CSS</h1>
@@ -8,4 +8,4 @@ function CSSInfo() {
   );
 }
 
-export default CSSInfo;
+export default CssInfo;
