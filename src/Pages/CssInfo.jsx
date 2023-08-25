@@ -1,11 +1,8 @@
 import React from "react";
+import ComponentCss from "../Components/ComponentCss";
 
 function CssInfo() {
-  return (
-    <div>
-      <h1>CSS</h1>
-    </div>
-  );
+  return <ComponentCss />;
 }
 
 export default CssInfo;

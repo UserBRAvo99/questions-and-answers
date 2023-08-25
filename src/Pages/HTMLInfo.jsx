@@ -1,7 +1,8 @@
 import React from "react";
+import ComponentHTML from "../Components/ComponentHTML";
 
 function HTMLInfo() {
-  return <div>HTMLInfo</div>;
+  return <ComponentHTML />;
 }
 
 export default HTMLInfo;

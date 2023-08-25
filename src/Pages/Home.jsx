@@ -1,13 +1,8 @@
 import React from "react";
+import ComponentHome from "../Components/ComponentHome";
 
 function Home() {
-  return (
-    <>
-      <div>
-        <h1>Home</h1>
-      </div>
-    </>
-  );
+  return <ComponentHome />;
 }
 
 export default Home;

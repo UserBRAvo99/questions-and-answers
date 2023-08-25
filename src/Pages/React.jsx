@@ -1,11 +1,8 @@
 import React from "react";
+import ComponentsReact from "../Components/ComponentReact";
 
 function ReactInfo() {
-  return (
-    <div>
-      <h1>React</h1>
-    </div>
-  );
+  return <ComponentsReact />;
 }
 
 export default ReactInfo;

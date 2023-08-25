@@ -1,11 +1,8 @@
 import React from "react";
+import ComponentsJS from "../Components/ComponentJS";
 
 function JavaScriptInfo() {
-  return (
-    <div>
-      <h1>JavaScript</h1>
-    </div>
-  );
+  return <ComponentsJS />;
 }
 
 export default JavaScriptInfo;
