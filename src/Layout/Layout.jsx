@@ -1,18 +1,11 @@
 import React from "react";
-import { Link, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
+import ComponentNavBar from "../Components/ComponentNavBar";
 
 function Layout() {
   return (
     <>
-      <div>
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/html">HTML</Link>
-          <Link to="/css">CSS</Link>
-          <Link to="/javascript">JavaScript</Link>
-          <Link to="/react">React</Link>
-        </nav>
-      </div>
+      <ComponentNavBar />
       <Outlet />
     </>
   );
