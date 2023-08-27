@@ -1,12 +1,26 @@
 {
   "files": {
     "main.css": "/questions-and-answers/static/css/main.31d6cfe0.css",
-    "main.js": "/questions-and-answers/static/js/main.b2fb84a1.js",
+    "main.js": "/questions-and-answers/static/js/main.86ebf043.js",
+    "static/js/497.f7133474.chunk.js": "/questions-and-answers/static/js/497.f7133474.chunk.js",
+    "static/js/708.9f949279.chunk.js": "/questions-and-answers/static/js/708.9f949279.chunk.js",
+    "static/js/263.2113e566.chunk.js": "/questions-and-answers/static/js/263.2113e566.chunk.js",
+    "static/js/902.2292cfac.chunk.js": "/questions-and-answers/static/js/902.2292cfac.chunk.js",
+    "static/js/362.0652f855.chunk.js": "/questions-and-answers/static/js/362.0652f855.chunk.js",
+    "static/js/296.20dc0f43.chunk.js": "/questions-and-answers/static/js/296.20dc0f43.chunk.js",
+    "static/js/77.f9759bb0.chunk.js": "/questions-and-answers/static/js/77.f9759bb0.chunk.js",
     "index.html": "/questions-and-answers/index.html",
-    "main.b2fb84a1.js.map": "/questions-and-answers/static/js/main.b2fb84a1.js.map"
+    "main.86ebf043.js.map": "/questions-and-answers/static/js/main.86ebf043.js.map",
+    "497.f7133474.chunk.js.map": "/questions-and-answers/static/js/497.f7133474.chunk.js.map",
+    "708.9f949279.chunk.js.map": "/questions-and-answers/static/js/708.9f949279.chunk.js.map",
+    "263.2113e566.chunk.js.map": "/questions-and-answers/static/js/263.2113e566.chunk.js.map",
+    "902.2292cfac.chunk.js.map": "/questions-and-answers/static/js/902.2292cfac.chunk.js.map",
+    "362.0652f855.chunk.js.map": "/questions-and-answers/static/js/362.0652f855.chunk.js.map",
+    "296.20dc0f43.chunk.js.map": "/questions-and-answers/static/js/296.20dc0f43.chunk.js.map",
+    "77.f9759bb0.chunk.js.map": "/questions-and-answers/static/js/77.f9759bb0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.b2fb84a1.js"
+    "static/js/main.86ebf043.js"
   ]
 }

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkquestions_and_answers=self.webpackChunkquestions_and_answers||[]).push([[362],{362:function(n,s,e){e.r(s),e.d(s,{default:function(){return a}});e(791);var r=e(87),u=e(184);var t=function(){return(0,u.jsx)("div",{children:(0,u.jsxs)("h1",{children:["Pages is not found! You can go back at",(0,u.jsx)(r.rU,{to:"/",children:"home"})]})})},a=function(){return(0,u.jsx)(t,{})}}}]);
+//# sourceMappingURL=362.0652f855.chunk.js.map
