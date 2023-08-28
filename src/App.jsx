@@ -2,14 +2,6 @@ import { Route, Routes } from "react-router-dom";
 import { Suspense, lazy } from "react";
 import "./App.css";
 
-// import Home from "./Pages/Home";
-// import CssInfo from "./Pages/CssInfo";
-// import JavaScriptInfo from "./Pages/JavaScript";
-// import ReactInfo from "./Pages/React";
-// import NotFound from "./Pages/NotFound";
-// import Layout from "./Layout/Layout";
-// import HTMLInfo from "./Pages/HTMLInfo";
-
 const Home = lazy(() => import("./Pages/Home"));
 const CssInfo = lazy(() => import("./Pages/CssInfo"));
 const JavaScriptInfo = lazy(() => import("./Pages/JavaScript"));
