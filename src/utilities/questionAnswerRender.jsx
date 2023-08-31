@@ -1,18 +1,31 @@
+import { nanoid } from "nanoid";
 import React from "react";
+import { styled } from "styled-components";
 
 function questionAnswerRender(data) {
   return (
-    <ul>
+    <List>
       {data.map(({ question, answer }) => {
         return (
-          <li>
-            <h2>{question}</h2>
-            <p>{answer}</p>
-          </li>
+          <Item key={nanoid()}>
+            <Title>{question}</Title>
+            <Paragraph>{answer}</Paragraph>
+          </Item>
         );
       })}
-    </ul>
+    </List>
   );
 }
 
 export default questionAnswerRender;
+
+const List = styled.ul`
+  display: flex;
+  flex-direction: column;
+`;
+
+const Item = styled.li``;
+
+const Title = styled.h2``;
+
+const Paragraph = styled.p``;
