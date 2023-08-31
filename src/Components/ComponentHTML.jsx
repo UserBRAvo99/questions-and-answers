@@ -1,7 +1,8 @@
-import React from "react";
+import dataHTML from "../Data/dataHTML";
+import questionAnswerRender from "../utilities/questionAnswerRender";
 
 function ComponentHTML() {
-  return <h1>ComponentHTML</h1>;
+  return questionAnswerRender(dataHTML);
 }
 
 export default ComponentHTML;
