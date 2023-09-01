@@ -6,7 +6,7 @@ function ComponentNavBar() {
     <nav>
       <NavLink to="/">Home</NavLink>
       <NavLink to="/html">HTML</NavLink>
-      <NavLink to="/css">CSS</NavLink>
+      {/* <NavLink to="/css">CSS</NavLink> */}
       <NavLink to="/javascript">JavaScript</NavLink>
       <NavLink to="/react">React</NavLink>
     </nav>

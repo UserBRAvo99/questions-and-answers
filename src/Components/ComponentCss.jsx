@@ -1,8 +1,8 @@
-import dataCSS from "../Data/dataCSS";
-import questionAnswerRender from "../utilities/questionAnswerRender";
+// import dataCSS from "../Data/dataCSS";
+// import questionAnswerRender from "../utilities/questionAnswerRender";
 
-function ComponentsCss() {
-  return questionAnswerRender(dataCSS);
-}
+// function ComponentsCss() {
+//   return questionAnswerRender(dataCSS);
+// }
 
-export default ComponentsCss;
+// export default ComponentsCss;
