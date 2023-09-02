@@ -1,7 +1,8 @@
-import React from "react";
+import dataJS from "../Data/dataJS";
+import questionAnswerRender from "../utilities/questionAnswerRender";
 
 function ComponentsJS() {
-  return <h1>ComponentsJS</h1>;
+  return questionAnswerRender(dataJS);
 }
 
 export default ComponentsJS;
