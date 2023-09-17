@@ -3,7 +3,6 @@ import { Suspense, lazy } from "react";
 import "./App.css";
 
 const Home = lazy(() => import("./Pages/Home"));
-// const CssInfo = lazy(() => import("./Pages/CssInfo"));
 const JavaScriptInfo = lazy(() => import("./Pages/JavaScript"));
 const ReactInfo = lazy(() => import("./Pages/React"));
 const NotFound = lazy(() => import("./Pages/NotFound"));
@@ -17,7 +16,6 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="html" element={<HTMLInfo />} />
-          {/* <Route path="css" element={<CssInfo />} /> */}
           <Route path="javascript" element={<JavaScriptInfo />} />
           <Route path="react" element={<ReactInfo />} />
           <Route path="*" element={<NotFound />} />
